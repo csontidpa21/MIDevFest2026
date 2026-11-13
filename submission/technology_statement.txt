@@ -17,3 +17,6 @@ IBM Cloudant: optional persistence service (p. 18). No Cloudant database integra
 IBM Speech-to-Text and Text-to-Speech: optional services (p. 18). Neither is integrated. The narrated pitch uses macOS Samantha speech synthesis, not IBM Text-to-Speech.
 IBM Bob Shell is optional and does not substitute for required Bob IDE (pp. 7, 15-17).
 Use the hackathon-provisioned accounts for event IBM services. Keep credentials server-side and out of public repositories or videos. Verify actual IBM work before replacing any unverified status with a completion claim.
+
+SUPPLIED WORKSPACE DOCUMENTATION
+Three user-supplied screenshots show the MIDevFest2026 frontend project open in IBM Bob. Two are included in the pitch deck and video. They document the editor workspace only; no Budget usage badge, completed prompt, AI-authored change or successful IBM authentication is established by these images.

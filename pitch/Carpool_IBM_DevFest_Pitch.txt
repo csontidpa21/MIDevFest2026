@@ -110,3 +110,6 @@ Exact current narration and timings: video-pitch/ibm-devfest/narration.txt and s
 Slide 3 and the screenshot walkthrough together occupy 0:30-2:00. Actual app screenshots occupy 0:40-2:00 (80 seconds). This version follows the PowerPoint; it does not establish the portal's ninety-second live product demonstration or genuine Bob/Orchestrate workflow evidence.
 
 LATEST AUDIENCE REVISION: target user expanded to anyone needing commuting/carpooling without dependable transportation. Slide 4’s unused IBM-product heading and list were removed. Current video narration and timings are in video-pitch/ibm-devfest/narration.txt.
+
+BOB WORKSPACE SCREENSHOTS ADDED
+The presentation now includes an eighth slide: Project workspace in IBM Bob, after the implementation slide. It uses two supplied screenshots of frontend styling and page source. All three supplied images are under bob_usage/ as workspace_01, workspace_02 and workspace_03. The video includes this slide and remains 2:55. The images do not show the Budget badge or completed AI task; they are supporting workspace documentation. Exact current narration is in video-pitch/ibm-devfest/narration.txt.

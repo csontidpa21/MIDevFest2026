@@ -47,3 +47,7 @@ The video is a narrated screenshot walkthrough, not genuine Bob/Orchestrate work
 
 - [Submission portal](https://compete.112601.watsonx-challenge.ibm.com/competitions/midevfest/complete-the-hackathon)
 - [Hackathon guide](https://private-hackathons-2026.s3.us-east.cloud-object-storage.appdomain.cloud/112601_HackathonGuide.pdf)
+
+## Supplied IBM Bob workspace screenshots
+
+Three supplied screenshots are in [bob_usage](bob_usage/). Two appear in the updated eight-slide presentation and 2:55 video. They show the frontend project open in Bob; the required Budget badge and completed project-task evidence are still outstanding.
