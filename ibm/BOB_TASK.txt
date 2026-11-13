@@ -1,0 +1,13 @@
+Open the Hackathon project folder in IBM Bob IDE using the event account.
+Suggested substantive task for Bob:
+
+Review ibm/evaluate_trip.py and its tests for incorrect arithmetic, invalid input
+handling and misleading route-feasibility claims. Add meaningful tests for any
+issues you identify, make the smallest needed fix, and run:
+python3 -m unittest discover -s ibm -p 'test_*.py' -v
+Explain what changed and why. Do not inspect .env files or use any real personal
+data. Do not book rides or invoke paid APIs. The fixtures are synthetic.
+
+After reviewing Bob's work, capture your actual Budget badge usage in Bob IDE
+and save the PNG in bob_usage/. Record Bob's exact contribution in the tech
+statement. The task above has been prepared by Codex, not performed by Bob.

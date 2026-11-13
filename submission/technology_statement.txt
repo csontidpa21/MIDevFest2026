@@ -1,0 +1,19 @@
+TECHNOLOGY STATEMENT / CURRENT FACTUAL DRAFT
+
+IBM Bob IDE: required by the official guide. IBM Bob.app is installed on the local machine, but this task could not access its window to verify sign-in or usage. No Bob-assisted development or screenshot is claimed. Codex authored this revision. A substantive review task for Bob is prepared in ibm/BOB_TASK.txt. After real Bob work, replace this paragraph with the exact task, files, reviewed result and per-member screenshot paths.
+
+watsonx Orchestrate: ibm/agent.template.yaml defines the intended native agent and ibm/orchestrate_tool.py exposes evaluate_carpool_draft using the official Python tool decorator. ibm/evaluate_trip.py provides the deterministic implementation. The agent should gather constraints, call the tool and explain the output. It remains separate from the browser UI. Select a model enabled in the event tenant and verify SDK import, agent import and a real conversation before claiming integration. No tenant deployment or IBM model response has been verified.
+
+Working local implementation: React web UI, fixed fictional candidates, state-driven selection/totals, and a Python tool with ten passing local tests. The tool compares groups under explicit seat and supplied sample-detour constraints. No live route feasibility or arrival-time validation is implied.
+
+Other AI: existing src/agents/along313.ts defines a separate Flue/OpenAI agent. That code predates this revision and is not proof of IBM usage. Codex helped inspect the project and prepare code, tests, pitch and submission drafts. Team members should add other tools actually used.
+
+Evidence needed before submission: authentic Bob IDE usage screenshot for each participant; reviewed Bob contribution; selected Orchestrate model; successful import and tool call; narrated on-screen IBM workflow; public video URL; public repository verification.
+
+OTHER IBM PRODUCTS IN THE GUIDE / AVAILABILITY, NOT IMPLEMENTED USE
+watsonx.ai: optional foundation-model inference (guide pp. 30-40). No inference call, selected supported model or integration verified.
+IBM Code Engine: optional application deployment (pp. 41-43). The app is running locally, not on Code Engine.
+IBM Cloudant: optional persistence service (p. 18). No Cloudant database integration claimed.
+IBM Speech-to-Text and Text-to-Speech: optional services (p. 18). Neither is integrated. The narrated pitch uses macOS Samantha speech synthesis, not IBM Text-to-Speech.
+IBM Bob Shell is optional and does not substitute for required Bob IDE (pp. 7, 15-17).
+Use the hackathon-provisioned accounts for event IBM services. Keep credentials server-side and out of public repositories or videos. Verify actual IBM work before replacing any unverified status with a completion claim.

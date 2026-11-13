@@ -1,0 +1,30 @@
+CARPOOL / GUIDE REVIEW / NOVEMBER 13, 2026
+Scope: current local website, saved slide viewer, synchronized PowerPoint and pitch script. Existing hosted website and older videos have not been republished or replaced.
+
+RESULT: NOT YET READY TO CLAIM FULL COMPLIANCE
+The guide requires actual IBM Bob IDE as a core component. No verified Bob work or per-member screenshots are present. The portal also requests a real watsonx Orchestrate demonstration; no verified IBM run is present. These cannot be satisfied by changing wording.
+
+REQUIREMENT AND CURRENT STATUS
+1. Michigan focus (guide pp. 3-4): intended Next-Gen Mobility fit, commuting to Michigan jobs. Organizer acceptance not verified.
+2. Bob IDE core work (pp. 4, 7): OPEN. Complete substantive project development/review using event Bob account. Prepared task: ibm/BOB_TASK.txt. Record actual contribution and update technology statement.
+3. Every member's usage evidence (p. 17): OPEN. Mac and Carl must each capture actual Budget badge usage and save PNGs under bob_usage/ in final public repository. No evidence images currently present.
+4. Data/asset restrictions (pp. 4-5): demo people, notes, amounts and times are fictional. Website labels now say so and no longer claim badge verification or real matching. No new dataset was ingested. Mascot artwork retained at the user's request; permission/provenance still OPEN. Public research citations in slide 6 are contextual, not app data or measured Carpool outcomes; underlying source details and reuse permissions still need validation before submission. See data_and_asset_sources.txt.
+5. Credentials (p. 18): environment/key ignore rules exist. No credentials were copied into these edits. Public repository and full history have not been certified secret-free; perform a private pre-publication review.
+6. Event service access (pp. 5, 18, 23, 28): event accounts and allowed service/model selection still need verification. Do not expand service permissions to bypass restrictions. AgentOps Preview excluded. Do not use the three excluded watsonx.ai models listed in the script notes.
+7. IBM agent lifecycle (pp. 24-27): agent/tool files prepared, not proof of testing or deployment. Local deterministic tool: ten tests pass. Browser remains separate from IBM; no end-to-end AI integration claimed.
+8. Portal video: 2:55 recording plan, 90 continuous seconds of browser demonstration, plus separate genuine IBM evidence segments. Updated video rendered at 2:55, 1920x1080, with a narrated sequence of actual app screenshots and an IBM product status section. This is not continuous live screen recording or genuine Bob/Orchestrate workflow footage. It is not yet a complete portal demonstration. Existing 6:52 video is superseded for this pitch. No public final video URL verified.
+9. Portal written statements: problem/solution draft below 500 words; technology draft distinguishes actual local work from intended IBM roles. Update only with verified evidence.
+10. Public repository/submission: OPEN. Public access, complete evidence, final recording and submission have not been verified. Existing prior work predates this event; disclose prior work and ask organizer about eligibility if needed.
+
+CHECKS
+Website demo reviewed in browser: Hollywood Casino Hotel origin, DTW destination, next-day 7 a.m., two-seat default; totals $26 -> $12 -> $23. Restored initial selection after checking. Ten Python tool tests pass. Frontend typecheck passes after regenerating the stale route types. PowerPoint package validation is recorded in presentation-build/guide-sync/validation.json.
+
+SOURCES
+Guide: https://private-hackathons-2026.s3.us-east.cloud-object-storage.appdomain.cloud/112601_HackathonGuide.pdf
+Portal: https://compete.112601.watsonx-challenge.ibm.com/competitions/midevfest/complete-the-hackathon
+Guide calls Orchestrate optional; portal asks to demonstrate it. Keep that distinction visible.
+Portal submission deadline: November 15, 2026, 2 p.m. Eastern. Cloud backup cutoff: November 24, 2026, 11 a.m. Eastern. Earlier onsite materials are separate and require organizer clarification.
+
+VIDEO VERIFICATION: pitch/Carpool_IBM_DevFest_Video_Pitch.mp4 is 175 seconds, 1920x1080, with one video track and one narration track. Seven sample frames were decoded and reviewed; all seven source narration segments have non-silent, non-clipped audio. Report: video-pitch/ibm-devfest/verification.json. This verifies media structure and sampled visuals, not IBM implementation or eligibility.
+
+LATEST VIDEO REVISION: synchronized with all seven current PowerPoint slides in order, including the latest IBM wording comments. Duration remains 175 seconds. Source app screenshots occupy 80 seconds, plus a 10-second product-demo slide. This version matches the deck but does not establish the portal's 90 seconds of the solution in action. IBM workflow evidence remains outstanding.

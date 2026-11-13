@@ -1,0 +1,112 @@
+CARPOOL / MICHIGAN DEVFEST 2026
+SHARED TRIPS FOR COMMUTERS
+
+PITCH AND SUBMISSION VIDEO SCRIPT
+Team: Chayanon “Mac” Sontidpanya and Carl Scozzari
+Target runtime: 2:55, with a five-second buffer before the 3:00 limit.
+Spoken words appear in quotation marks. Production notes are not spoken.
+
+0:00-0:20 / SLIDE 1 / PROBLEM AND TEAM
+“Getting to work should not depend on having a dependable car. We’re Mac Sontidpanya and Carl Scozzari. For Michigan DevFest 2026, Carpool explores Next-Gen Mobility: coordinating unused vehicle capacity for Michigan commuters, with a future path toward smart infrastructure integration.”
+Visual: revised cover, with both team members visible. Introduce a target use case, not a customer testimonial.
+
+0:20-0:40 / SLIDE 3 TO LIVE APP / SET THE TRIP
+“Here is our example: a driver leaving Hollywood Casino Hotel in Greektown, Detroit, for Detroit Metro Airport tomorrow at seven a.m. The driver enters the trip and available seats. This prototype uses fictional riders and sample amounts. It does not calculate a live route.”
+Action: show the app continuously from 0:20 through 1:50. Display From = Hollywood Casino Hotel, Greektown, Detroit; To = Detroit Metro Airport. Set departure to the day after recording at 7:00 a.m. and open seats to two before the take. Keep a visible ‘Synthetic demo data’ label in the video.
+
+0:40-1:00 / LIVE APP / CLICK 1: FIND RIDERS
+“Find riders opens our sample candidates: Maya, Derrick and Keisha. Each card shows a pickup area, a sample detour and a suggested contribution. Maya and Derrick start selected. The draft shows two riders sharing twenty-six dollars of the trip.”
+Action: click Find riders, then point to the cards and total. Give viewers time to read. Explain the actual screen rather than implying live search or availability.
+
+1:00-1:20 / LIVE APP / CLICK 2: REMOVE DERRICK
+“If the driver removes Derrick, the draft changes to one rider and twelve dollars. The driver can see how the choice changes the group and the total before discussing a pickup. The amount is a demonstration value, not a verified fare.”
+Action: uncheck Derrick and show the updated rider count and total. Keep the application on screen.
+
+1:20-1:50 / LIVE APP / CLICK 3: ADD KEISHA
+“Now add Keisha. The draft becomes two riders and twenty-three dollars. The driver can compare the pickup notes and sample detours, then decide which arrangement to discuss. People still need to agree on the pickup and time. This creates a draft only. It does not verify identities, book a ride or collect payment.”
+Action: select Keisha and show the cards and total. Hold the final state and inspect the notes. Do not cut away to slides before 1:50. This completes 90 continuous seconds of the solution in action, independently of IBM footage.
+
+1:50-2:05 / SLIDE 4 TO IBM BOB / DEVELOPMENT EVIDENCE
+RECORD THIS SEGMENT ONLY AFTER ACTUAL BOB WORK AND REVIEW.
+“IBM Bob helped us [state the exact completed development task]. Here is the actual request, the result we reviewed and the test outcome. Mac and Carl’s individual Bob usage screenshots are included in our public repository.”
+Visual: authentic Bob session, reviewed change or findings, actual test output and usage evidence. Replace the bracketed phrase with the verified contribution. Mention both screenshots only after both exist. A prepared prompt is not evidence of completed Bob work.
+
+2:05-2:25 / WATSONX ORCHESTRATE / AGENT AND TOOL EVIDENCE
+RECORD THIS SEGMENT ONLY AFTER A SUCCESSFUL REAL IBM RUN.
+“watsonx Orchestrate gathers the constraints and calls our evaluation tool. With two seats and a twelve-minute sample limit, it returns Maya and Derrick, eleven sample minutes and twenty-six dollars. At three minutes, no candidate fits. The tool checks supplied values. People make the final choice.”
+Visual: real Orchestrate conversation and tool trace for both inputs, using the synthetic fixture. Explain that this is a separate tool demonstration: the browser is not connected to Orchestrate. Do not substitute a local terminal run for IBM footage or call sample-detour sums real route times.
+
+2:25-2:55 / SLIDES 2 AND 5 / WHY DO WE CARE? AND MICHIGAN VALUE
+“Why do we care? Dependable travel can help people reach Michigan jobs. Our next step is to interview five commuters and three drivers, then test one corridor with an employer or community partner. We would measure pickup agreement, added travel time, completed trips, arrival reliability and repeat use. We’re asking for one partner to help test the need.”
+Visual: pilot plan and contact/partner ask. These are proposed research targets. No interviews, partnership, measured savings or field results are claimed. Slides 6 and 7 remain backup material for questions, not additional timed narration.
+
+2:55-3:00 / BUFFER
+End the video by 2:55 where possible. Do not add an outro that pushes it past three minutes. Rehearse and time the actual narration and screen actions.
+
+CURRENT EVIDENCE STATUS / NOT SPOKEN
+The repository currently documents a local React prototype, a deterministic Python evaluation tool and prepared Orchestrate import files. Authentic Bob work, each member’s Bob screenshot and a successful Orchestrate run remain unverified in the available project evidence. The IBM narration above is a recording template, not a statement that those steps occurred. Replace its placeholders only after verifying the work.
+
+For an honest rehearsal before that evidence exists, replace the IBM segments with:
+“IBM Bob usage evidence still needs to be captured for each team member. Our prepared Orchestrate agent and tool wrapper also need a verified IBM run. The browser currently uses fixed examples, and the evaluation tool runs separately. We cannot yet demonstrate the required IBM workflow.”
+This rehearsal version does not fulfill the portal’s IBM demonstration requirement and is not ready as a compliant final submission.
+
+DEMO PREPARATION / NOT SPOKEN
+- Use the running app, with Maya and Derrick selected and Keisha unselected.
+- Set From to Hollywood Casino Hotel, Greektown, Detroit. DTW remains the destination. The presentation shortens the origin to Hollywood Casino Greektown, Detroit.
+- Set the correct next-day date and 7:00 a.m.; verify the automatically populated date before recording.
+- Use two open seats to match ibm/demo_request.json. The browser cards remain fixed synthetic examples and are not validated for this new origin.
+- Use the current app for the recording. The slide 3 screenshot shows the Hollywood Casino Hotel trip inputs; screenshots remain synthetic examples, not live matches.
+- For IBM proof, complete and review the substantive Bob task in ibm/BOB_TASK.txt, capture each member’s genuine usage evidence and record the actual contribution.
+- Verify the Orchestrate import, conversation and tool calls using the supplied two-seat fixture and limits of twelve and three minutes. Confirm the observed output before narrating it.
+- Keep client data, real personal data, social-media data and credentials out of footage and the public repository.
+
+PORTAL REQUIREMENTS / CHECKED NOVEMBER 13, 2026
+Source: https://compete.112601.watsonx-challenge.ibm.com/competitions/midevfest/complete-the-hackathon
+The signed-in page was read directly for this revision.
+- Publicly accessible narrated demo video, maximum three minutes. Judges stop at three minutes.
+- At least ninety seconds showing the solution working on screen. This plan reserves 0:20-1:50 for the browser alone, plus thirty-five seconds for actual Bob and Orchestrate demonstrations.
+- Clearly demonstrate use of both IBM Bob and watsonx Orchestrate.
+- A problem/solution statement of no more than 500 words: specific use case, target users, interaction, creative distinction and effective, efficient AI use. See submission/problem_solution.txt; this script does not replace that deliverable.
+- A separate technology statement detailing actual IBM Bob and Orchestrate use. See submission/technology_statement.txt; update it after verification.
+- A public source repository containing project files and each team member’s authentic Bob usage screenshots.
+- Submit all required deliverables through My Team. If revising a submission, resubmit all deliverables; the latest entry is official.
+- Portal deadline: November 15, 2026, at 2:00 p.m. Eastern. Earlier onsite materials list a different cutoff; this script follows the linked portal for the portal submission.
+- Back up IBM Cloud projects before November 24, 2026, at 11:00 a.m. Eastern, when the event accounts shut down.
+- Public website data requires commercial-use permission and a source list. The portal prohibits client data, personal information and social-media data.
+
+PRESENTATION ALIGNMENT
+Cover: Shared trips for Commuters.
+Event credit: Michigan DevFest 2026.
+Members: Chayanon “Mac” Sontidpanya and Carl Scozzari.
+Motivation heading: Why do we care?
+Demo origin: Hollywood Casino Greektown, Detroit (full app label includes Hotel).
+The airport-shift use case remains one concrete commuter example, consistent with the presentation body. It is not a validated customer story.
+
+GUIDE ALIGNMENT / VERIFIED NOVEMBER 13, 2026
+Guide: https://private-hackathons-2026.s3.us-east.cloud-object-storage.appdomain.cloud/112601_HackathonGuide.pdf
+Pages 3-4: Carpool targets Next-Gen Mobility, with Michigan commuter access as its intended benefit. This is an intended fit, not organizer approval.
+Pages 4 and 7: Bob IDE must be a core component of the project work. A script reference or an installed application does not satisfy this requirement. Other frameworks are permitted under their product policies. Bob Shell alone does not replace Bob IDE.
+Pages 5 and 28: use the event-provisioned Bob/IBM Cloud accounts for the event services. Do not change service permissions to work around the Builder role.
+Page 17: each participant captures their own Bob Budget badge usage, preferably PNG, and includes it under bob_usage/ in the final repository. Mac and Carl each need authentic evidence.
+Pages 4-5: synthetic candidates only. No client, personal, social-media or confidential data. Record permissions and commercial-use terms for any external data or assets. The mascot illustration is retained at the user's request; its rights/provenance remain unverified.
+Page 18: keep credentials out of public code, videos and screenshots. Ignore files do not establish that repository history is free of secrets.
+Page 22: do not use AgentOps Preview. Pages 31 and 33: if using watsonx.ai, exclude llama-3-405b-instruct, mistral-medium-2505 and mistral-small-3-1-24b-instruct-2503. The prepared model placeholder is not a verified model selection.
+The guide calls watsonx products optional. The linked submission portal explicitly requests Bob and Orchestrate demonstrations. This script follows the stricter portal deliverable while recording that difference.
+The guide does not establish the earlier one-minute video rule. The portal's three-minute maximum and ninety-second screen demonstration govern this portal recording plan.
+
+UPDATED VIDEO VERSION / NEXT-GEN MOBILITY
+Current output: pitch/Carpool_IBM_DevFest_Video_Pitch.mp4.
+Exact narration: video-pitch/ibm-devfest/narration.txt.
+Runtime target: 2:55. Current app screen captures occupy 0:20-1:50. This is a narrated screenshot walkthrough of actual prototype states, not continuous live screen recording.
+The current video uses factual rehearsal narration about missing IBM evidence; it does not use the conditional completed-work claims above. A final competition demo still needs genuine Bob and Orchestrate workflow footage.
+Theme: coordinate unused vehicle capacity for Michigan commuters and investigate smart infrastructure connections. Future permitted transit/traffic information could inform explainable trip planning. No autonomous driving, connected-vehicle telemetry, live route optimization or Michigan field deployment is claimed.
+
+IBM PRODUCT COVERAGE IN THE CURRENT VIDEO
+The 1:50-2:25 section explicitly covers IBM Bob IDE, watsonx Orchestrate, watsonx.ai, Code Engine, Cloudant, Speech-to-Text and Text-to-Speech. It distinguishes required Bob evidence, prepared Orchestrate work and optional products not integrated. Video narration is generated by macOS, not an IBM speech service. Exact spoken wording is in video-pitch/ibm-devfest/narration.txt.
+
+LATEST VIDEO / SYNCHRONIZED TO THE POWERPOINT
+The latest video uses all seven current PowerPoint slides in order, with four actual-app screenshot scenes accompanying slide 3. It includes the latest edits removing the two marked phrases on slide 4 and listing IBM products in slide 7's readiness note. Runtime: 2:55.
+Exact current narration and timings: video-pitch/ibm-devfest/narration.txt and segments.json. These supersede earlier video-specific timings and the separate IBM-products graphic described above.
+Slide 3 and the screenshot walkthrough together occupy 0:30-2:00. Actual app screenshots occupy 0:40-2:00 (80 seconds). This version follows the PowerPoint; it does not establish the portal's ninety-second live product demonstration or genuine Bob/Orchestrate workflow evidence.
+
+LATEST AUDIENCE REVISION: target user expanded to anyone needing commuting/carpooling without dependable transportation. Slide 4’s unused IBM-product heading and list were removed. Current video narration and timings are in video-pitch/ibm-devfest/narration.txt.

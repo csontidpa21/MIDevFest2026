@@ -1,0 +1,54 @@
+OFFICIAL GUIDELINES / CARPOOL PROJECT ALIGNMENT
+Verified from the signed-in competition portal on November 13, 2026.
+
+FOCUS
+Michigan mobility and access to Michigan employment. Airport-shift commuting is
+our concrete target scenario. Neither user demand nor field outcomes are proven.
+
+JUDGING / 25 POINTS TOTAL
+Completeness and feasibility / 5: working local UI and tested evaluation tool.
+Gap: IBM Bob contribution/screenshots and actual Orchestrate execution.
+Creativity and innovation / 5: intended AI explanation plus deterministic draft
+checks and human choice. Gap: real user/competitor validation.
+Design and usability / 5: visible selection, totals, explicit no-fit tool result.
+Gap: usability sessions and UI-to-Orchestrate integration.
+Effectiveness and efficiency / 5: proposed pilot measures agreement, actual added
+time, completion, arrival reliability and repeat use. Gap: measured outcomes.
+Michigan impact / 5: access to local jobs and possible employer-sponsored use.
+Gap: partner interview, viable operating model and real community evidence.
+These are evidence mappings, not predicted scores.
+
+DELIVERABLES
+Public demo video, no longer than 3 minutes, with at least 90 seconds showing
+the product in action. Narration and actual IBM Bob/Orchestrate use per portal.
+Problem/solution statement: maximum 500 words. Draft in problem_solution.txt.
+Technology statement: exact real IBM roles. Draft in technology_statement.txt.
+Public code repository containing project files and each member's real Bob usage
+screenshot in bob_usage/. No video upload or final submission performed here.
+
+DATES AND CONFLICTS
+Portal: team-building closes November 15 at noon Eastern. Submission closes
+November 15 at 2 p.m. Eastern. IBM Cloud shuts down November 24 at 11 a.m. Eastern.
+Earlier keynote/workbook: November 13 at 6 p.m. cutoff, one-minute video.
+Do not silently replace the onsite schedule. Confirm with organizers which cutoff
+applies to onsite prizes versus portal submission. Use the earlier relevant date.
+The guide requires Bob IDE and calls Orchestrate optional. The portal asks for
+Bob and Orchestrate. Prepare for both until organizers clarify.
+The project predates this event. Confirm prior-work eligibility and disclose the
+new work separately. No rule allowing prior work was verified.
+
+DATA AND SECRET HANDLING
+Synthetic demo candidates only. No real personal, client, confidential or social
+media data. List public sources and check commercial-use rights before ingesting
+their data. Existing mascot art needs rights/provenance review before public use.
+Do not treat literature cited in the pitch as a production dataset. No measured
+savings or real route availability comes from those sources.
+Environment files and key files now have ignore coverage. Ignore rules do not
+remove previously committed secrets and do not substitute for a history review.
+No repository-wide secret-free certification or complete history audit is claimed.
+
+OFFICIAL SOURCES
+https://compete.112601.watsonx-challenge.ibm.com/competitions/midevfest#judging
+https://compete.112601.watsonx-challenge.ibm.com/competitions/midevfest/complete-the-hackathon
+https://private-hackathons-2026.s3.us-east.cloud-object-storage.appdomain.cloud/112601_HackathonGuide.pdf
+Guide pages 4, 7 and 17: Bob requirement, data rules and per-member evidence.

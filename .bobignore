@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/*credentials*
+**/*secret*
+**/*.pem
+**/*.key
+node_modules/
+OmniRoute/
+.git/

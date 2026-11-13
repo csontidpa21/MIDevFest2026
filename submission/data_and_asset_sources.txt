@@ -1,0 +1,18 @@
+CARPOOL / DATA AND ASSET REGISTER
+
+Synthetic application data: invented rider names/initials, pickup examples, notes, sample detours and contribution amounts in frontend/app/page.tsx and ibm/demo_request.json. No real rider records used. Locations are manually entered examples, not imported user trip histories. Candidate geography and detours have not been validated for the selected origin.
+
+Mascot illustration: frontend/public/lion-paws-carpool-hero.png. Existing project asset, retained at user request. Generator/source, license, permissions and third-party character rights have not been established. It is illustrative, not photographic evidence or an endorsement. Resolve asset permission before public competition use. Original asset is preserved.
+
+Website links (links only; no transit data ingested):
+https://www.michigan.gov/mdot/travel/mobility/pub-transit
+https://www.michigan.gov/drive
+https://www.smartbus.org/
+https://transitapp.com/download.html
+These providers are not affiliated with Carpool.
+
+Slide 6 research: existing deck cites an RTA 2022 report using SEMCOG 2020 data, a SEMCOG 2019 rider survey and SMART fare information. Those are external historical context, not a project dataset. Exact report URLs, pages, current fare accuracy and reuse terms have not been independently reverified in this review. No source permission or current-count claim is established. Resolve these before using the statistics as submission evidence.
+
+App screenshot: pitch/app-guide-aligned.png, captured from the running local synthetic prototype on November 13, 2026. Website inputs are contextual only and do not calculate routing or prices. Date changes with recording day.
+
+Guide pp. 4-5 requires permission for external data/assets, commercially permitted website data and a website source list. Do not ingest confidential, client, personal or social-media data.

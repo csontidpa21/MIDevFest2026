@@ -1,0 +1,9 @@
+Carpool is a Next-Gen Mobility proof of concept for Michigan DevFest 2026. It explores how Detroit residents without dependable car access could share seats on trips already heading to airport shifts. We focus on adult airport commuters and drivers traveling along the same corridor. The specific schedule and cost gap remains a hypothesis to test with commuters and an employer partner.
+
+The working web prototype lets a driver review fictional riders, choose a draft group and see sample trip contributions update. A new deterministic Python tool compares supplied candidates against seat capacity and a limit on the sum of sample detours. It ranks draft groups by rider count and then the lowest sample-detour sum. It never treats higher contributions as a selection priority. Ten local tests cover capacity, arithmetic, no-fit cases and malformed inputs.
+
+We prepared a watsonx Orchestrate agent definition and Python tool wrapper. The intended AI role is to collect constraints conversationally, call the tool and explain options. The tool handles arithmetic while people review and consent. Deployment and an actual Orchestrate conversation remain unverified. IBM Bob usage evidence is also still required. The current changes came from Codex, and we do not attribute them to Bob.
+
+The proposed distinction is a visible, explainable trip draft for recurring work travel. We have not validated market uniqueness or user demand. A first pilot would measure pickup agreement, added travel time, completed trips, arrival reliability and repeat use. Employer-sponsored access remains a business hypothesis.
+
+Our Michigan goal is to improve access to local jobs while making existing seats more useful. We claim no measured savings, job retention, emissions reduction or confirmed partnerships. All demo candidates and prices are synthetic. The prototype performs no live routing, identity verification, booking or payment.

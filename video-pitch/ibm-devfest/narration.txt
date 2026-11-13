@@ -1,0 +1,35 @@
+CARPOOL / VIDEO MATCHED TO CURRENT POWERPOINT
+Runtime: 2:55. Broad commuter audience; unused-product section removed from slide 4.
+
+0:00-0:15 / slide-1.png
+We are Mac Sontidpanya and Carl Scozzari. For Michigan DevFest 2026, Carpool explores Next-Gen Mobility: shared trips for commuters, using empty seats on trips drivers already plan to make.
+
+0:15-0:30 / slide-2.png
+Our target user is anyone who needs to commute and carpool without dependable transportation. Why do we care? Access to work and useful seats on trips already happening. We want to test whether riders and drivers can agree on pickup, timing and a fair trip share.
+
+0:30-0:40 / slide-3.png
+The prototype demonstrates a draft carpool in three clicks: find riders, remove Derrick, then add Keisha. All candidates and amounts are fictional examples.
+
+0:40-0:55 / demo-inputs.png
+The trip starts at Hollywood Casino Hotel in Greektown, Detroit, and ends at Detroit Metro Airport tomorrow at seven a.m. We set two open seats. These inputs provide context; the candidates remain fixed examples.
+
+0:55-1:15 / demo-26.png
+Find riders shows Maya, Derrick and Keisha. Each card displays a sample pickup area, detour and contribution. Maya and Derrick start selected. The draft shows two riders and twenty-six dollars. The driver can review those details before deciding whom to discuss a trip with.
+
+1:15-1:35 / demo-12.png
+Remove Derrick. The draft changes to one rider and twelve dollars. The driver can see how the choice changes the group and the total. These are sample contributions, not verified fares. The prototype creates a draft for discussion; it does not book a ride or take payment.
+
+1:35-2:00 / demo-23.png
+Now add Keisha. The draft becomes two riders and twenty-three dollars. Compare the pickup notes and supplied sample detours. People still need to agree on the pickup and time. This walkthrough shows actual prototype states. The example geography and detours have not been validated for the selected origin.
+
+2:00-2:25 / slide-4.png
+Our working implementation is a React interface and a local Python tool, with ten passing tests. We prepared a watsonx Orchestrate agent and Python wrapper to collect constraints and explain results. Bob IDE is required, and project usage and both members’ screenshots still need evidence. Video narration uses macOS speech.
+
+2:25-2:40 / slide-5.png
+Our next step is to interview five commuters and three drivers, then test one Michigan corridor. We would measure pickup agreement, added travel time and repeat interest. We are asking for one employer or community partner to help test the need.
+
+2:40-2:50 / slide-6.png
+The research slide provides historical transport context, not a current count or proven Carpool demand. Transit remains an important alternative to compare.
+
+2:50-2:55 / slide-7.png
+The rubric covers five categories, totaling twenty-five points. Thank you.

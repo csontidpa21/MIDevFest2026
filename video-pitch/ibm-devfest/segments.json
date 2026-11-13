@@ -1,0 +1,57 @@
+[
+  {
+    "image": "video-pitch/ibm-devfest/slide-1.png",
+    "duration": 15,
+    "narration": "We are Mac Sontidpanya and Carl Scozzari. For Michigan DevFest 2026, Carpool explores Next-Gen Mobility: shared trips for commuters, using empty seats on trips drivers already plan to make."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/slide-2.png",
+    "duration": 15,
+    "narration": "Our target user is anyone who needs to commute and carpool without dependable transportation. Why do we care? Access to work and useful seats on trips already happening. We want to test whether riders and drivers can agree on pickup, timing and a fair trip share."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/slide-3.png",
+    "duration": 10,
+    "narration": "The prototype demonstrates a draft carpool in three clicks: find riders, remove Derrick, then add Keisha. All candidates and amounts are fictional examples."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/demo-inputs.png",
+    "duration": 15,
+    "narration": "The trip starts at Hollywood Casino Hotel in Greektown, Detroit, and ends at Detroit Metro Airport tomorrow at seven a.m. We set two open seats. These inputs provide context; the candidates remain fixed examples."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/demo-26.png",
+    "duration": 20,
+    "narration": "Find riders shows Maya, Derrick and Keisha. Each card displays a sample pickup area, detour and contribution. Maya and Derrick start selected. The draft shows two riders and twenty-six dollars. The driver can review those details before deciding whom to discuss a trip with."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/demo-12.png",
+    "duration": 20,
+    "narration": "Remove Derrick. The draft changes to one rider and twelve dollars. The driver can see how the choice changes the group and the total. These are sample contributions, not verified fares. The prototype creates a draft for discussion; it does not book a ride or take payment."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/demo-23.png",
+    "duration": 25,
+    "narration": "Now add Keisha. The draft becomes two riders and twenty-three dollars. Compare the pickup notes and supplied sample detours. People still need to agree on the pickup and time. This walkthrough shows actual prototype states. The example geography and detours have not been validated for the selected origin."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/slide-4.png",
+    "duration": 25,
+    "narration": "Our working implementation is a React interface and a local Python tool, with ten passing tests. We prepared a watsonx Orchestrate agent and Python wrapper to collect constraints and explain results. Bob IDE is required, and project usage and both members\u2019 screenshots still need evidence. Video narration uses macOS speech."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/slide-5.png",
+    "duration": 15,
+    "narration": "Our next step is to interview five commuters and three drivers, then test one Michigan corridor. We would measure pickup agreement, added travel time and repeat interest. We are asking for one employer or community partner to help test the need."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/slide-6.png",
+    "duration": 10,
+    "narration": "The research slide provides historical transport context, not a current count or proven Carpool demand. Transit remains an important alternative to compare."
+  },
+  {
+    "image": "video-pitch/ibm-devfest/slide-7.png",
+    "duration": 5,
+    "narration": "The rubric covers five categories, totaling twenty-five points. Thank you."
+  }
+]

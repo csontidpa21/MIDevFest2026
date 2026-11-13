@@ -1,0 +1,9 @@
+{
+  "open_seats": 2,
+  "max_added_minutes": 12,
+  "candidates": [
+    {"id": "demo_maya", "sample_detour_minutes": 4, "sample_contribution": 12},
+    {"id": "demo_derrick", "sample_detour_minutes": 7, "sample_contribution": 14},
+    {"id": "demo_keisha", "sample_detour_minutes": 9, "sample_contribution": 11}
+  ]
+}
