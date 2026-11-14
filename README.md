@@ -50,4 +50,4 @@ The video is a narrated screenshot walkthrough, not genuine Bob/Orchestrate work
 
 ## Supplied IBM Bob workspace screenshots
 
-Three supplied screenshots are in [bob_usage](bob_usage/). Two appear in the updated eight-slide presentation and 2:55 video. They show the frontend project open in Bob; the required Budget badge and completed project-task evidence are still outstanding.
+Two supplied screenshots are in [bob_usage](bob_usage/). Both appear in the updated eight-slide presentation and 2:55 video. They show the frontend project open in Bob; the required Budget badge and completed project-task evidence are still outstanding.

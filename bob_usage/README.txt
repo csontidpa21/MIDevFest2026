@@ -14,6 +14,5 @@ Supporting workspace screenshots are listed below; a Budget badge capture is sti
 
 SUPPLIED BOB WORKSPACE SCREENSHOTS / NOVEMBER 13, 2026
 Carpool_MichiganDevFest2026_Mac_IBM_Bob_workspace_01.png: MIDevFest2026 open in IBM Bob, frontend styling file.
-Carpool_MichiganDevFest2026_Mac_IBM_Bob_workspace_02.png: additional styling workspace view.
-Carpool_MichiganDevFest2026_Mac_IBM_Bob_workspace_03.png: frontend page source open in IBM Bob.
+Carpool_MichiganDevFest2026_Mac_IBM_Bob_workspace_02.png: frontend page source open in IBM Bob.
 These are user-supplied screenshots. Pixel content is unchanged; embedded metadata was omitted for publication. They show the project workspace, not a Budget badge, a completed Bob prompt, or a verified AI-authored change. They supplement, and do not replace, the guide's per-member usage evidence.

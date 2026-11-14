@@ -19,4 +19,4 @@ IBM Bob Shell is optional and does not substitute for required Bob IDE (pp. 7, 1
 Use the hackathon-provisioned accounts for event IBM services. Keep credentials server-side and out of public repositories or videos. Verify actual IBM work before replacing any unverified status with a completion claim.
 
 SUPPLIED WORKSPACE DOCUMENTATION
-Three user-supplied screenshots show the MIDevFest2026 frontend project open in IBM Bob. Two are included in the pitch deck and video. They document the editor workspace only; no Budget usage badge, completed prompt, AI-authored change or successful IBM authentication is established by these images.
+Two user-supplied screenshots show the MIDevFest2026 frontend project open in IBM Bob. Both are included in the pitch deck and video. They document the editor workspace only; no Budget usage badge, completed prompt, AI-authored change or successful IBM authentication is established by these images.
