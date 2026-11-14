@@ -1,5 +1,5 @@
-CARPOOL / VIDEO WITH SUPPLIED IBM BOB WORKSPACE SCREENSHOTS
-Runtime: 2:55. Eight slides in order, with app screenshot walkthrough.
+CARPOOL / VIDEO MATCHED TO UPDATED POWERPOINT
+Runtime: 2:55. Latest IBM status wording and Bob screenshot caption removal applied.
 
 0:00-0:15 / slide-1.png
 We are Mac Sontidpanya and Carl Scozzari. For Michigan DevFest 2026, Carpool explores Next-Gen Mobility: shared trips for commuters, using empty seats on trips drivers already plan to make.
@@ -11,7 +11,7 @@ Our target user is anyone who needs to commute and carpool without dependable tr
 The prototype demonstrates a draft carpool in three clicks: find riders, remove Derrick, then add Keisha. All candidates and amounts are fictional examples.
 
 0:40-0:55 / demo-inputs.png
-The trip starts at Hollywood Casino Hotel in Greektown, Detroit, and ends at Detroit Metro Airport tomorrow at seven a.m. We set two open seats. These inputs provide context; the candidates remain fixed examples.
+The trip starts at Hollywood Casino Hotel in Greektown, Detroit, and ends at Detroit Metro Airport with an example departure at seven a.m. We set two open seats. These inputs provide context; the candidates remain fixed examples.
 
 0:55-1:15 / demo-26.png
 Find riders shows Maya, Derrick and Keisha. Each card displays a sample pickup area, detour and contribution. Maya and Derrick start selected. The draft shows two riders and twenty-six dollars. The driver can review those details before deciding whom to discuss a trip with.
@@ -23,10 +23,10 @@ Remove Derrick. The draft changes to one rider and twelve dollars. The driver ca
 Now add Keisha. The draft becomes two riders and twenty-three dollars. Compare the pickup notes and supplied sample detours. People still need to agree on the pickup and time. This walkthrough shows actual prototype states. The example geography and detours have not been validated for the selected origin.
 
 2:00-2:20 / slide-4.png
-Our working implementation is a React interface and a local Python tool, with ten passing tests. We prepared a watsonx Orchestrate agent and Python wrapper to collect constraints and explain results. Bob IDE is required, and project usage and both members’ screenshots still need evidence. Video narration uses macOS speech.
+Our working implementation is a React interface and a local Python tool, with ten passing tests. We prepared a watsonx Orchestrate agent and Python wrapper to collect constraints and explain results. IBM Bob IDE has a core development role. Project usage still needs to be tested and improved. Video narration uses macOS speech.
 
 2:20-2:30 / current-deck-slide-5.png
-These supplied screenshots show the project open in IBM Bob, including styling and application source. A Budget badge capture and completed Bob task evidence are still needed.
+These supplied screenshots show the MIDevFest2026 project open in IBM Bob. The views include frontend styling and the commuter application source.
 
 2:30-2:42 / current-deck-slide-6.png
 We propose interviews with five commuters and three drivers, followed by one Michigan corridor pilot. Measure pickup agreement, added time and repeat interest. We need one employer or community partner.

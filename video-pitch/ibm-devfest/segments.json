@@ -17,7 +17,7 @@
   {
     "image": "video-pitch/ibm-devfest/demo-inputs.png",
     "duration": 15,
-    "narration": "The trip starts at Hollywood Casino Hotel in Greektown, Detroit, and ends at Detroit Metro Airport tomorrow at seven a.m. We set two open seats. These inputs provide context; the candidates remain fixed examples."
+    "narration": "The trip starts at Hollywood Casino Hotel in Greektown, Detroit, and ends at Detroit Metro Airport with an example departure at seven a.m. We set two open seats. These inputs provide context; the candidates remain fixed examples."
   },
   {
     "image": "video-pitch/ibm-devfest/demo-26.png",
@@ -37,12 +37,12 @@
   {
     "image": "video-pitch/ibm-devfest/slide-4.png",
     "duration": 20,
-    "narration": "Our working implementation is a React interface and a local Python tool, with ten passing tests. We prepared a watsonx Orchestrate agent and Python wrapper to collect constraints and explain results. Bob IDE is required, and project usage and both members\u2019 screenshots still need evidence. Video narration uses macOS speech."
+    "narration": "Our working implementation is a React interface and a local Python tool, with ten passing tests. We prepared a watsonx Orchestrate agent and Python wrapper to collect constraints and explain results. IBM Bob IDE has a core development role. Project usage still needs to be tested and improved. Video narration uses macOS speech."
   },
   {
     "image": "video-pitch/ibm-devfest/current-deck-slide-5.png",
     "duration": 10,
-    "narration": "These supplied screenshots show the project open in IBM Bob, including styling and application source. A Budget badge capture and completed Bob task evidence are still needed."
+    "narration": "These supplied screenshots show the MIDevFest2026 project open in IBM Bob. The views include frontend styling and the commuter application source."
   },
   {
     "image": "video-pitch/ibm-devfest/current-deck-slide-6.png",
